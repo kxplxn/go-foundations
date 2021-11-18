@@ -7,6 +7,7 @@ func variables() {
 
 	basics()
 	naming()
+	scopes()
 }
 
 func basics() {
@@ -54,4 +55,24 @@ func naming() {
 
 	dogsName := "Max"
 	fmt.Println("My dog's name is", dogsName)
+}
+
+func scopes() {
+	outerX := "I'm outer X!"
+
+	innerScope1 := func() {
+		innerX := "I'm inner X!"
+
+		fmt.Println(outerX)
+		fmt.Println(innerX)
+	}
+
+	innerScope2 := func() {
+		fmt.Println(outerX)
+		//fmt.Println(innerX) //Doesn't work!
+		fmt.Println("Inner X cannot be printed.")
+	}
+
+	innerScope1()
+	innerScope2()
 }
