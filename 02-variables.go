@@ -8,6 +8,7 @@ func variables() {
 	basics()
 	naming()
 	scopes()
+	constants()
 }
 
 func basics() {
@@ -69,10 +70,18 @@ func scopes() {
 
 	innerScope2 := func() {
 		fmt.Println(outerX)
-		//fmt.Println(innerX) //Doesn't work!
-		fmt.Println("Inner X cannot be printed.")
+		// fmt.Println(innerX) // ERROR: undefined: x
 	}
 
 	innerScope1()
 	innerScope2()
+}
+
+func constants() {
+	fmt.Println("\nConstants:")
+
+	const x string = "Hello World"
+	fmt.Println(x)
+
+	// x = "Some other string..." // ERROR: cannot assign to x
 }
