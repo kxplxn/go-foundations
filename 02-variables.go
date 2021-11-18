@@ -4,10 +4,14 @@ import "fmt"
 
 func variables() {
 	fmt.Println("\n\n_VARIABLES_")
+
 	basics()
+	naming()
 }
 
 func basics() {
+	fmt.Println("\nBasics:")
+
 	var a string = "Hello World"
 	fmt.Println(a)
 
@@ -43,4 +47,11 @@ func basics() {
 
 	k := 5
 	fmt.Println(k)
+}
+
+func naming() {
+	fmt.Println("\nNaming:")
+
+	dogsName := "Max"
+	fmt.Println("My dog's name is", dogsName)
 }
