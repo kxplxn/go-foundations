@@ -4,4 +4,5 @@ func main() {
 	types()
 	variables()
 	control()
+	collections()
 }
