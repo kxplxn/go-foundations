@@ -7,6 +7,7 @@ func control() {
 
 	forLoop()
 	ifStatement()
+	switchStatement()
 }
 
 func forLoop() {
@@ -40,4 +41,30 @@ func ifStatement() {
 
 	runIf(4)
 	runIf(5)
+}
+
+func switchStatement() {
+	fmt.Println("\nSwitch:")
+
+	runSwitch := func(number int) {
+		switch number {
+		case 0:
+			fmt.Println("Zero")
+		case 1:
+			fmt.Println("One")
+		case 2:
+			fmt.Println("Two")
+		case 3:
+			fmt.Println("Three")
+		case 4:
+			fmt.Println("Four")
+		case 5:
+			fmt.Println("Five")
+		default:
+			fmt.Println("UNKNOWN NUMBER")
+		}
+	}
+
+	runSwitch(3)
+	runSwitch(123)
 }
