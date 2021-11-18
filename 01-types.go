@@ -13,3 +13,12 @@ func strings() {
 	fmt.Println("len(\"Hello World\") =", len("Hello World"))
 	fmt.Println("\"HelloWorld\"[1] =", "HelloWorld"[1])
 }
+
+func booleans() {
+	fmt.Println("\nBooleans:")
+	fmt.Println("true && true =", true && true)
+	fmt.Println("true && false =", true && false)
+	fmt.Println("true || true =", true || true)
+	fmt.Println("true || false =", true || false)
+	fmt.Println("!true =", !true)
+}
