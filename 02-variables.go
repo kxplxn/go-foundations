@@ -9,6 +9,7 @@ func variables() {
 	naming()
 	scopes()
 	constants()
+	read()
 }
 
 func basics() {
@@ -84,4 +85,14 @@ func constants() {
 	fmt.Println(x)
 
 	// x = "Some other string..." // ERROR: cannot assign to x
+}
+
+func read() {
+	fmt.Println("\nRead:")
+
+	fmt.Println("Enter a number: ")
+	var input float64
+	fmt.Scanf("%f", &input)
+	output := input * 2
+	fmt.Println(output)
 }
