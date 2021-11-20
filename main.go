@@ -3,6 +3,7 @@ package main
 func main() {
 	functionsAndMethods()
 	objectOrientation()
+	functionParameters()
 }
 
 func functionsAndMethods() {
@@ -15,4 +16,8 @@ func objectOrientation() {
 	objectComposition()
 	anonymousFields()
 	interfaces()
+}
+
+func functionParameters() {
+	basicParameters()
 }
