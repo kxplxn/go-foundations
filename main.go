@@ -12,4 +12,5 @@ func functionsAndMethods() {
 
 func objectOrientation() {
 	basicObjects()
+	objectComposition()
 }
