@@ -37,4 +37,5 @@ Variadic Functions are functions that accept an arbitrary number of arguments.
 */
 func variadicFunctions() {
 	thePackOperator()
+	theUnpackOperator()
 }
