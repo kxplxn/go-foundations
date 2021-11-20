@@ -26,6 +26,7 @@ func functionParameters() {
 }
 
 func returningValues() {
-	returnSingleValue()
-	returnMultipleValues()
+	singleReturnValue()
+	multipleReturnValues()
+	namedReturnValues()
 }
