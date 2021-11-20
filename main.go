@@ -1,5 +1,10 @@
 package main
 
 func main() {
-	functionsDemo()
+	functionsAndMethods()
+}
+
+func functionsAndMethods() {
+	functions()
+	methods()
 }
