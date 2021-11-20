@@ -4,6 +4,7 @@ func main() {
 	functionsAndMethods()
 	objectOrientation()
 	functionParameters()
+	returningValues()
 }
 
 func functionsAndMethods() {
@@ -22,4 +23,8 @@ func functionParameters() {
 	basicParameters()
 	sliceParameters()
 	pointerArguments()
+}
+
+func returningValues() {
+	returnSingleValue()
 }
