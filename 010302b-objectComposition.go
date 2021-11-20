@@ -2,20 +2,20 @@ package main
 
 import "fmt"
 
-type Part struct {
+type PartA struct {
 	Manufacturer string
 }
 
-func (p *Part) Mfc() string {
+func (p *PartA) Mfc() string {
 	return p.Manufacturer
 }
 
 type Tire struct {
-	Part Part
+	Part PartA
 }
 
 func objectComposition() {
 	fmt.Println("Running `objectComposition`...")
-	tire := Tire{Part{Manufacturer: "Baban"}}
-	fmt.Printf("Result of `tire.Part.Mfc()` is `%s`.\n\n", tire.Part.Mfc())
+	tire := Tire{PartA{Manufacturer: "Baban"}}
+	fmt.Printf("Result of `tire.PartA.Mfc()` is `%s`.\n\n", tire.Part.Mfc())
 }
