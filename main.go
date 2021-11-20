@@ -20,4 +20,5 @@ func objectOrientation() {
 
 func functionParameters() {
 	basicParameters()
+	sliceParameters()
 }
