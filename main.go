@@ -6,6 +6,7 @@ func main() {
 	functionParameters()
 	returningValues()
 	variadicFunctions()
+	structs()
 }
 
 func functionsAndMethods() {
@@ -38,4 +39,11 @@ Variadic Functions are functions that accept an arbitrary number of arguments.
 func variadicFunctions() {
 	thePackOperator()
 	theUnpackOperator()
+}
+
+/*
+The `struct` data type essentially is a collection of named fields.
+*/
+func structs() {
+	definingStructs()
 }
