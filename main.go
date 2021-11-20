@@ -27,4 +27,5 @@ func functionParameters() {
 
 func returningValues() {
 	returnSingleValue()
+	returnMultipleValues()
 }

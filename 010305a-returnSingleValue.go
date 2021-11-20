@@ -2,13 +2,15 @@ package main
 
 import "fmt"
 
-func add(x, y int) int {
+// Result declaration defines the return value.
+// Since this simple return value doesn't have a name it's called an anonymous result.
+func addC(x, y int) int {
 	return x + y
 }
 
 func returnSingleValue() {
 	fmt.Println("Running `returnSingleValue`...")
 	x, y := 20, 10
-	res := add(x, y)
-	fmt.Printf("Result of `add(x, y)` is `%d`.\n\n", res)
+	res := addC(x, y)
+	fmt.Printf("Result of `addC(x, y)` is `%d`.\n\n", res)
 }
