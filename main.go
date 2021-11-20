@@ -5,6 +5,7 @@ func main() {
 	objectOrientation()
 	functionParameters()
 	returningValues()
+	variadicFunctions()
 }
 
 func functionsAndMethods() {
@@ -29,4 +30,11 @@ func returningValues() {
 	singleReturnValue()
 	multipleReturnValues()
 	namedReturnValues()
+}
+
+/*
+Variadic Functions are functions that accept an arbitrary number of arguments.
+*/
+func variadicFunctions() {
+	thePackOperator()
 }
