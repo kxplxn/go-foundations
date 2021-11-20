@@ -14,4 +14,5 @@ func objectOrientation() {
 	basicObjects()
 	objectComposition()
 	anonymousFields()
+	interfaces()
 }
