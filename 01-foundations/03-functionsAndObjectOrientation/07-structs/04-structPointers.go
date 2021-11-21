@@ -12,7 +12,7 @@ func StructPointers() {
 	ptr := &b
 
 	// * -> The "De-reference" Operator
-	//(*ptr).Depth = 7
+	//(*ptr).D = 7
 
 	// Implicit De-referencing
 	ptr.Depth = 7

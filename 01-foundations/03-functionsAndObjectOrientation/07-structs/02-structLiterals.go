@@ -3,7 +3,7 @@ package _010307_structs
 import "fmt"
 
 /*
-With struct literals (eg. `Depth: 20.0`), the order of the named fields is
+With struct literals (eg. `D: 20.0`), the order of the named fields is
 irrelevant; and ommited fields are set to their zero values for their tyype.
 */
 
