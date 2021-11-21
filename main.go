@@ -1,41 +1,11 @@
 package main
 
 import (
-	functionsAndMethods "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/01-functionsAndMethods"
-	objectOrientation "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/02-objectOrientation"
-	parameters "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/04-parameters"
-	returnValues "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/05-returnValues"
-	variadicFunctions "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/06-variadicFunctions"
-	structs "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/07-structs"
-	methods "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/08-methods"
-	interfaces "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/09-interfaces"
-	objects "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/10-objects"
+	_0103_ "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation"
+	_0104_ "github.com/alcadeta/lrn_golang/01-foundations/04-errorAndFileHandling"
 )
 
-func functionsAndObjectOrientation() {
-	functionsAndMethods.Functions()
-	functionsAndMethods.Methods()
-	objectOrientation.BasicObjects()
-	objectOrientation.ObjectComposition()
-	objectOrientation.AnonymousFields()
-	objectOrientation.Interfaces()
-	parameters.BasicParameters()
-	parameters.SliceParameters()
-	parameters.PointerArguments()
-	returnValues.SingleReturnValue()
-	returnValues.MultipleReturnValues()
-	returnValues.NamedReturnValues()
-	variadicFunctions.ThePackOperator()
-	variadicFunctions.TheUnpackOperator()
-	structs.StructDefinition()
-	structs.StructLiterals()
-	structs.StructReferences()
-	structs.StructPointers()
-	methods.DeclaringAndCallingMethods()
-	interfaces.WorkingWithInterfaces()
-	objects.WorkingWithObjects()
-}
-
 func main() {
-	functionsAndObjectOrientation()
+	_0103_.FunctionsAndObjectOrientation()
+	_0104_.ErrorAndFileHandling()
 }
