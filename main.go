@@ -9,26 +9,26 @@ import (
 	structs "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/07-structs"
 )
 
-func main() {
+func functionsAndObjectOrientation() {
 	functionsAndMethods.Functions()
 	functionsAndMethods.Methods()
-
 	objectOrientation.BasicObjects()
 	objectOrientation.ObjectComposition()
 	objectOrientation.AnonymousFields()
 	objectOrientation.Interfaces()
-
 	parameters.BasicParameters()
 	parameters.SliceParameters()
 	parameters.PointerArguments()
-
 	returnValues.SingleReturnValue()
 	returnValues.MultipleReturnValues()
 	returnValues.NamedReturnValues()
-
 	variadicFunctions.ThePackOperator()
 	variadicFunctions.TheUnpackOperator()
-
-	structs.DefiningStructs()
+	structs.StructDefinition()
 	structs.StructLiterals()
+	structs.StructReferences()
+}
+
+func main() {
+	functionsAndObjectOrientation()
 }

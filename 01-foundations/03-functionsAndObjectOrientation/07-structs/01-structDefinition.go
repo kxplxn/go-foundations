@@ -10,7 +10,7 @@ type Box struct {
 	Height float64
 }
 
-func DefiningStructs() {
+func StructDefinition() {
 	fmt.Println("Running `definingStructs`...")
 	b := Box{5, 4, 4}
 	fmt.Printf("Value of `b` is `%v`.\n\n", b)
