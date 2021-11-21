@@ -9,6 +9,7 @@ import (
 	structs "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/07-structs"
 	methods "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/08-methods"
 	interfaces "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/09-interfaces"
+	objects "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/10-objects"
 )
 
 func functionsAndObjectOrientation() {
@@ -32,6 +33,7 @@ func functionsAndObjectOrientation() {
 	structs.StructPointers()
 	methods.DeclaringAndCallingMethods()
 	interfaces.WorkingWithInterfaces()
+	objects.WorkingWithObjects()
 }
 
 func main() {
