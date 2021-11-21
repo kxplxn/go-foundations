@@ -27,6 +27,7 @@ func functionsAndObjectOrientation() {
 	structs.StructDefinition()
 	structs.StructLiterals()
 	structs.StructReferences()
+	structs.StructPointers()
 }
 
 func main() {
