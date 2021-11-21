@@ -1,4 +1,4 @@
-package main
+package _010302_objectOrientation
 
 import "fmt"
 
@@ -12,7 +12,7 @@ func (c *CubeB) Volume() float64 {
 	return c.depth * c.width * c.height
 }
 
-func basicObjects() {
+func BasicObjects() {
 	fmt.Println("Running `basicObjects`...")
 	cube := &CubeB{depth: 4, width: 4, height: 4}
 	fmt.Printf("Type of `cube` is `%T`.\n", cube)

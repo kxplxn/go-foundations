@@ -1,4 +1,4 @@
-package main
+package _010304_parameters
 
 import "fmt"
 
@@ -10,7 +10,7 @@ func addB(numbers []int) int {
 	return total
 }
 
-func sliceParameters() {
+func SliceParameters() {
 	fmt.Println("Running `sliceParameters`...")
 	numbers := []int{20, 10, 5}
 	fmt.Printf("Result of `addB(numbers)` is `%v`.\n\n", addB(numbers))

@@ -1,4 +1,4 @@
-package main
+package _010302_objectOrientation
 
 import "fmt"
 
@@ -14,7 +14,7 @@ type Tire struct {
 	Part PartA
 }
 
-func objectComposition() {
+func ObjectComposition() {
 	fmt.Println("Running `objectComposition`...")
 	tire := Tire{PartA{Manufacturer: "Baban"}}
 	fmt.Printf("Result of `tire.PartA.Mfc()` is `%s`.\n\n", tire.Part.Mfc())

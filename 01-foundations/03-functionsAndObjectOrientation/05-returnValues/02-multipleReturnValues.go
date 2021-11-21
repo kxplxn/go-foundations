@@ -1,4 +1,4 @@
-package main
+package _010305_returnValues
 
 import "fmt"
 
@@ -9,7 +9,7 @@ func addD(x, y int) (int, int, bool) {
 	return a, b, c
 }
 
-func multipleReturnValues() {
+func MultipleReturnValues() {
 	fmt.Println("Running `multipleReturnValues`...")
 	x, y := 20, 10
 	a, b, c := addD(x, y)

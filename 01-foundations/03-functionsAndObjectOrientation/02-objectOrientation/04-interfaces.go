@@ -1,4 +1,4 @@
-package main
+package _010302_objectOrientation
 
 import "fmt"
 
@@ -32,7 +32,7 @@ func getTotalVolume(shapes ...Shape) float64 {
 	return volume
 }
 
-func interfaces() {
+func Interfaces() {
 	fmt.Println("Running `interfaces`...")
 	shapes := []Shape{
 		&Sphere{Radius: 33.0},

@@ -1,4 +1,4 @@
-package main
+package _010302_objectOrientation
 
 import "fmt"
 
@@ -14,8 +14,8 @@ type TireB struct {
 	PartB // anonymous field AKA embedded type
 }
 
-func anonymousFields() {
-	fmt.Println("Running `anonymousFields`...")
+func AnonymousFields() {
+	fmt.Println("Running `AnonymousFields`...")
 	tire := TireB{PartB{Manufacturer: "Brodacaro"}}
 	fmt.Printf("Result of `tire.Mfc()` is `%s`.\n\n", tire.Mfc())
 }

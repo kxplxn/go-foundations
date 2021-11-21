@@ -1,4 +1,4 @@
-package main
+package _010301_functionsAndMethods
 
 import "fmt"
 
@@ -12,7 +12,7 @@ func (c *CubeA) Volume() float64 {
 	return c.d * c.w * c.h
 }
 
-func methods() {
+func Methods() {
 	fmt.Println("Running `methods`...")
 	c := &CubeA{d: 13.0, w: 13.0, h: 13.0}
 	volumeOfCube := c.Volume()

@@ -1,4 +1,4 @@
-package main
+package _010305_returnValues
 
 import "fmt"
 
@@ -9,7 +9,7 @@ func addC(x, y int) int {
 	return x + y
 }
 
-func singleReturnValue() {
+func SingleReturnValue() {
 	fmt.Println("Running `singleReturnValue`...")
 	x, y := 20, 10
 	res := addC(x, y)

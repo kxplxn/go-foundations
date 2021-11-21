@@ -1,4 +1,4 @@
-package main
+package _010307_structs
 
 import "fmt"
 
@@ -10,7 +10,7 @@ type Box struct {
 	Height float64
 }
 
-func definingStructs() {
+func DefiningStructs() {
 	fmt.Println("Running `definingStructs`...")
 	b := Box{5, 4, 4}
 	fmt.Printf("Value of `b` is `%v`.\n", b)

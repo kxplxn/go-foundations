@@ -1,4 +1,4 @@
-package main
+package _010301_functionsAndMethods
 
 import "fmt"
 
@@ -10,7 +10,7 @@ func avg(x []float64) float64 {
 	return total / float64(len(x))
 }
 
-func functions() {
+func Functions() {
 	fmt.Println("Running `functions`...")
 	avgRes := avg([]float64{43.0, 34.0, 21.0, 52.0})
 	fmt.Printf("Result of `avg` is `%.2f`.\n\n", avgRes)

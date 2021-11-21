@@ -1,4 +1,4 @@
-package main
+package _010304_parameters
 
 import "fmt"
 
@@ -7,7 +7,7 @@ func multiply(x, y *int) int {
 	return *x * *y // `*` suffixes are `Dereference Operator`s.
 }
 
-func pointerArguments() {
+func PointerArguments() {
 	fmt.Println("Running `pointerArguments`...")
 	x, y := 5, 2
 	// `&` here are `Address-Of Operator`s.

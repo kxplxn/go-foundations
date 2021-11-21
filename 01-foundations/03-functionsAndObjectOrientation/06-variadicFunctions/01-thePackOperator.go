@@ -1,4 +1,4 @@
-package main
+package _010306_variadicFunctions
 
 import "fmt"
 
@@ -8,8 +8,8 @@ arguments are packed into a slice when they are passed to the function.
 
 A function declared this way is called a variadic function.
 */
-func thePackOperator() {
-	fmt.Println("Running `thePackOperator`...")
+func ThePackOperator() {
+	fmt.Println("Running `ThePackOperator`...")
 	res := addF(1, 2, 3, 4)
 	fmt.Printf("Result of `addF(1, 2, 3, 4)` is `%s`.\n\n", res)
 }
