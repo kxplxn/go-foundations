@@ -8,6 +8,7 @@ import (
 	variadicFunctions "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/06-variadicFunctions"
 	structs "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/07-structs"
 	methods "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/08-methods"
+	interfaces "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation/09-interfaces"
 )
 
 func functionsAndObjectOrientation() {
@@ -30,6 +31,7 @@ func functionsAndObjectOrientation() {
 	structs.StructReferences()
 	structs.StructPointers()
 	methods.DeclaringAndCallingMethods()
+	interfaces.WorkingWithInterfaces()
 }
 
 func main() {
