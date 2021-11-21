@@ -30,4 +30,5 @@ func main() {
 	variadicFunctions.TheUnpackOperator()
 
 	structs.DefiningStructs()
+	structs.StructLiterals()
 }

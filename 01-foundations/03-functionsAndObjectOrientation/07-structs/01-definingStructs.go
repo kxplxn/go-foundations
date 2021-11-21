@@ -2,7 +2,7 @@ package _010307_structs
 
 import "fmt"
 
-// Box is an exportable object.
+// Box is an exportable struct.
 // We should always comment exported structs.
 type Box struct {
 	Depth  float64
@@ -13,5 +13,5 @@ type Box struct {
 func DefiningStructs() {
 	fmt.Println("Running `definingStructs`...")
 	b := Box{5, 4, 4}
-	fmt.Printf("Value of `b` is `%v`.\n", b)
+	fmt.Printf("Value of `b` is `%v`.\n\n", b)
 }
