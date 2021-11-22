@@ -7,4 +7,5 @@ import (
 func ErrorAndFileHandling() {
 	errorHandling.ErrorHandling()
 	errorHandling.CustomErrors()
+	errorHandling.HandlingErrors()
 }

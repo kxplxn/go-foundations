@@ -18,8 +18,8 @@ func CustomErrors() {
 	radius := -1.0
 	vol, err := volume(radius)
 	if err != nil {
-		fmt.Println("ERROR:", err)
+		fmt.Printf("ERROR: %v\n\n", err)
 		return
 	}
-	fmt.Printf("Volume of sphere is %.2f", vol)
+	fmt.Printf("Volume of sphere is %.2f.\n\n", vol)
 }
