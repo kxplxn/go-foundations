@@ -21,9 +21,9 @@ func ErrorHandling() {
 
 	// This is where the error is handled.
 	if err != nil {
-		fmt.Printf("ERROR: %v\n", err.Error())
+		fmt.Printf("ERROR: %v\n\n", err.Error())
 		return
 	}
 
-	fmt.Printf("File `%s` is successfuly opened", file.Name())
+	fmt.Printf("File `%s` is successfuly opened.\n\n", file.Name())
 }
