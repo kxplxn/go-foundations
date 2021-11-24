@@ -12,4 +12,5 @@ func ErrorAndFileHandling() {
 	errorHandling.HandlingErrors()
 	errorsPackage.IsFunction()
 	deferPanicRecover.BasicDeferPanicRecover()
+	deferPanicRecover.HandlingRuntimeErrors()
 }

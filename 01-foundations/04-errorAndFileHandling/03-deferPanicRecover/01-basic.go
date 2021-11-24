@@ -30,7 +30,7 @@ func p(s string, i int) {
 func r() {
 	if err := recover(); err != nil {
 		fmt.Println(err)
-		fmt.Println("recovered from panic")
+		fmt.Print("recovered from panic\n\n")
 	}
 }
 
@@ -39,7 +39,7 @@ func r() {
 // whether a panic is called or not.
 
 func BasicDeferPanicRecover() {
-	fmt.Println("Running `BasicDeferPanicRecover`...")
+	fmt.Println("Running `HandlingRuntimeErrors`...")
 	defer r()
 	p("runtime error: enter panic state", 3)
 }
