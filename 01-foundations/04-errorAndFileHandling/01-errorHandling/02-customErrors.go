@@ -1,4 +1,4 @@
-package _0104_errorAndFileHandling_
+package _010401_errorHandling_
 
 import (
 	"errors"

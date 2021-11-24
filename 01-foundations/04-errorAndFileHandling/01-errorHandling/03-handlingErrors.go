@@ -1,4 +1,4 @@
-package _0104_errorAndFileHandling_
+package _010401_errorHandling_
 
 import (
 	"fmt"
@@ -15,9 +15,9 @@ func HandlingErrors() {
 
 	if err != nil {
 		// printing via `log` package is safer than `fmt` and it also adds timing information
-		log.Println(err)
+		log.Printf("%v\n\n", err)
 		return
 	}
 
-	fmt.Println("file is successfuly opened:", f.Name())
+	fmt.Printf("file is successfuly opened: %s.\n\n", f.Name())
 }
