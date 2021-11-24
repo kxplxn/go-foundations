@@ -11,6 +11,7 @@ import (
 )
 
 func IsFunction() {
+	defer fmt.Println()
 	fmt.Println("Running `IsFunction`...")
 	// this is a composite if statement that both initialises a value and uses
 	// it in the test condition
