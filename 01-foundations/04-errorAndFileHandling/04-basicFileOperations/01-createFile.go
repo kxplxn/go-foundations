@@ -6,8 +6,6 @@ import (
 	"os"
 )
 
-const chapterDir string = "01-foundations/04-errorAndFileHandling/04-basicFileOperations"
-
 func CreateFile() {
 	fmt.Println("\nRunning `CreateFile`...")
 	// func Create(name string) (*File, error)
