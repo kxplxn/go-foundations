@@ -1,4 +1,4 @@
-package _010406_ioOperations_
+package _010406_directoryOperations_
 
 import (
 	"fmt"

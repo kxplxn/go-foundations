@@ -6,7 +6,7 @@ import (
 	"github.com/alcadeta/lrn_golang/04-errorAndFileHandling/03-deferPanicRecover"
 	"github.com/alcadeta/lrn_golang/04-errorAndFileHandling/04-basicFileOperations"
 	"github.com/alcadeta/lrn_golang/04-errorAndFileHandling/05-readingFiles"
-	"github.com/alcadeta/lrn_golang/04-errorAndFileHandling/06-ioOperations"
+	"github.com/alcadeta/lrn_golang/04-errorAndFileHandling/06-directoryOperations"
 )
 
 func ErrorAndFileHandling() {
@@ -25,6 +25,7 @@ func ErrorAndFileHandling() {
 	_010404_basicFileOperations_.FileInfo()
 	_010405_readingFiles_.ReadingFilesIntoMemory()
 	_010405_readingFiles_.ReadingFilesLineByLine()
-	_010406_ioOperations_.CreateDirectory()
-	_010406_ioOperations_.CreateNestedDirectories()
+	_010406_directoryOperations_.CreateDirectory()
+	_010406_directoryOperations_.CreateNestedDirectories()
+	_010406_directoryOperations_.ListFiles()
 }
