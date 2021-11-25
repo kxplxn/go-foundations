@@ -1,4 +1,4 @@
-package _010309_working_with_interfaces_
+package _010309_interfaces_
 
 import "fmt"
 

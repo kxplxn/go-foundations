@@ -1,8 +1,8 @@
 package main
 
 import (
-	_0103_ "github.com/alcadeta/lrn_golang/01-foundations/03-functionsAndObjectOrientation"
-	_0104_ "github.com/alcadeta/lrn_golang/01-foundations/04-errorAndFileHandling"
+	"github.com/alcadeta/lrn_golang/03-functionsAndObjectOrientation"
+	_0104_ "github.com/alcadeta/lrn_golang/04-errorAndFileHandling"
 )
 
 func main() {
