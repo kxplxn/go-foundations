@@ -26,4 +26,5 @@ func ErrorAndFileHandling() {
 	_010405_readingFiles_.ReadingFilesIntoMemory()
 	_010405_readingFiles_.ReadingFilesLineByLine()
 	_010406_ioOperations_.CreateDirectory()
+	_010406_ioOperations_.CreateNestedDirectories()
 }
