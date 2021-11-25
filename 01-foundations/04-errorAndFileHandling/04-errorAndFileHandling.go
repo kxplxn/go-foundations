@@ -16,4 +16,5 @@ func ErrorAndFileHandling() {
 	deferPanicRecover.HandlingRuntimeErrors()
 	basicFileOperations.CreateFile()
 	basicFileOperations.OpenAndCloseFile()
+	basicFileOperations.RemoveFile()
 }
