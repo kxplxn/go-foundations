@@ -23,4 +23,5 @@ func ErrorAndFileHandling() {
 	basicFileOperations.TruncateFile()
 	basicFileOperations.FileInfo()
 	readingFiles.ReadingFilesIntoMemory()
+	readingFiles.ReadingFilesLineByLine()
 }
