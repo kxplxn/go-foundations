@@ -17,4 +17,5 @@ func ErrorAndFileHandling() {
 	basicFileOperations.CreateFile()
 	basicFileOperations.OpenAndCloseFile()
 	basicFileOperations.RemoveFile()
+	basicFileOperations.CopyFile()
 }
