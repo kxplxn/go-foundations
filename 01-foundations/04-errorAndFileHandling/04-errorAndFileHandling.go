@@ -20,4 +20,5 @@ func ErrorAndFileHandling() {
 	basicFileOperations.CopyFile()
 	basicFileOperations.RenameFile()
 	basicFileOperations.TruncateFile()
+	basicFileOperations.FileInfo()
 }
